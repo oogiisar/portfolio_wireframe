@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  nav, footer {
+    padding: 10px 0;
+    background-color: #aaa;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  main {
+      padding-top: 45px;
+  }
+  
+  .container {
+    display: flex;
+    height: 95vh;
+    background-color: #bbb;
+  }
+
+.column {
+    flex: 1;
+    flex-direction: column;
+    height: 95vh;
+    padding-top: 47.5vh;
+    border: 2px solid black;
+}
+
+.section_left {
+    background-color: grey;
+}
+
+.section_right {
+    background-color: lightgray;
+}
